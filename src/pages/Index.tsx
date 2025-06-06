@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { Navbar } from "@/components/Navbar";
 import { ProductScroll } from "@/components/ProductScroll";
 import { AutoScrollProductCarousel } from "@/components/AutoScrollProductCarousel";
+import { BentoGallery } from "@/components/BentoGallery";
 import { AboutMe } from "@/components/AboutMe";
 import { PromotionalMarquee } from "@/components/PromotionalMarquee";
 import { ContactSection } from "@/components/ContactSection";
@@ -56,6 +57,10 @@ const Index = () => {
                 // reverse={true}
               />
             </div>
+          </div>
+
+          <div id="gallery">
+            <BentoGallery />
           </div>
           
           <div id="about">
